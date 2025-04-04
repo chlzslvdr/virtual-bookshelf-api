@@ -57,3 +57,7 @@ A RESTful API for managing books, integrated with Supabase for authentication an
 	```
 
 5. The server should now be running on http://localhost:4020.
+
+## API Documentation
+
+[Virtual Bookshelf API](https://documenter.getpostman.com/view/5787929/2sB2cU9hRH)
