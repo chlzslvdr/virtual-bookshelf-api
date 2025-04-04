@@ -1,0 +1,18 @@
+{
+  "name": "virtual-bookshelf-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "chlzslvdr",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.4",
+    "axios": "1.8.4",
+    "cors": "2.8.5",
+    "dotenv": "16.4.7",
+    "express": "5.1.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
