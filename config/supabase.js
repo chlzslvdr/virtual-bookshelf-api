@@ -10,7 +10,7 @@ const supabaseAnon = createClient(
 const createSupabaseClient = (token) => {
   const supabaseService = createClient(
     process.env.SUPABASE_URL,
-    process.env.SUPABASE_SERVICE_ROLE_KEY,  // Use service role key here
+    process.env.SUPABASE_SERVICE_ROLE_KEY,
     {
       global: {
         headers: {

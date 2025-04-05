@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node index.js"
   },
   "author": "chlzslvdr",
   "license": "ISC",
@@ -13,6 +13,7 @@
     "cors": "2.8.5",
     "dotenv": "16.4.7",
     "express": "5.1.0",
-    "jsonwebtoken": "^9.0.2"
+    "joi": "17.13.3",
+    "jsonwebtoken": "9.0.2"
   }
 }
