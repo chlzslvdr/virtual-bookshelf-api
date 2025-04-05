@@ -9,6 +9,7 @@ A RESTful API for managing books, integrated with Supabase for authentication an
 - [Supabase](https://supabase.com) for authentication and database management
 - JWT (JSON Web Tokens) for user authentication
 - Google Books API for book search functionality
+- [Render](https://render.com) for deploying and hosting the application with auto-scaling and continuous deployment
 
 ## Features
 
