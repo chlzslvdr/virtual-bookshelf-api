@@ -1,3 +1,4 @@
+![Cron job status](https://api.cron-job.org/jobs/6570330/2d47116ba99df594/status-3.svg)
 
 # Virtual Bookshelf API
 
