@@ -4,6 +4,7 @@ require("dotenv").config();
 
 const userRoutes = require("./routes/authRoutes");
 const bookRoutes = require("./routes/bookRoutes");
+const healthRoute = require("./routes/healthRoute");
 const errorHandler = require("./middlewares/errorHandler");
 
 const app = express();
@@ -16,6 +17,7 @@ app.get("/", (req, res) => {
 
 app.use("/api/users", userRoutes);
 app.use("/api/books", bookRoutes);
+app.use("/health", healthRoute);
 
 app.use(errorHandler);
 
