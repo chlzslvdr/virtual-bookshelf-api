@@ -17,7 +17,7 @@ app.get("/", (req, res) => {
 
 app.use("/api/users", userRoutes);
 app.use("/api/books", bookRoutes);
-app.use("/health", healthRoute);
+app.use("/supabase-hc", healthRoute);
 
 app.use(errorHandler);
 
