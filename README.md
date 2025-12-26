@@ -1,5 +1,3 @@
-![Cron job status](https://api.cron-job.org/jobs/6570330/3880d07dea1d5145/status-1.svg)
-
 # Virtual Bookshelf API
 
 A RESTful API for managing books, integrated with Supabase for authentication and storage. This project allows users to register, login, and manage their personal collection of books, including adding, updating, deleting, and searching for books. It also allows users to update book statuses and cover images.
